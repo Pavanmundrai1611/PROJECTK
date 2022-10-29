@@ -1,0 +1,24 @@
+body{
+  background-color: #A9CAEC;
+}
+#right{
+  padding-left: 50px;
+  text-align: center;
+  background-color: #D8DADC;
+}
+#right1{
+  padding-left: 100px;
+  position: relative;
+  text-align: center;
+  background-color: #D8DADC;
+}
+.one,.two{
+  border-style: solid;
+  border-color: black;
+}
+.ad,.cd,.dn,.hn{
+  padding: 2px;
+}
+.two{
+  padding:3px;
+}
