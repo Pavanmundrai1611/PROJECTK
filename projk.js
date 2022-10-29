@@ -24,11 +24,8 @@ fetch(ch).then((data)=>{return data.json();}
 }).catch((err)=>{
   console.log(err);
 })
-}
 
 
-
-function GetSelectedTextValue2() {
 
 var ddlFruits2 = document.getElementById("Prctns");
 //var selectedText = ddlFruits.options[ddlFruits.selectedIndex].innerHTML;
