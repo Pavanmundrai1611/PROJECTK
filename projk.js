@@ -1,6 +1,6 @@
 function GetSelectedTextValue() {
         var ddlFruits = document.getElementById("cities");
-        //var selectedText = ddlFruits.options[ddlFruits.selectedIndex].innerHTML;
+        var selectedText = ddlFruits.options[ddlFruits.selectedIndex].innerHTML;
         var ch = ddlFruits.value;
 fetch(ch).then((data)=>{return data.json();}
 ).then((cd)=>{
